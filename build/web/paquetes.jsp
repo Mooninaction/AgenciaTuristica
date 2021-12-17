@@ -1,7 +1,13 @@
+<%-- 
+    Document   : Paquetes
+    Created on : 16 dic. 2021, 18:27:19
+    Author     : Luna
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -28,12 +34,12 @@
             <h3>Ingrese los datos de su empleado</h3>
             <form action="SvEmpleado" method="POST">
 
-                <p> <label> Nombre: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="nombre" name="nombre"></p>
-                <p> <label> Apellido: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="apellido" name="apellido"></p>
-                <p> <label> Cargo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="cargo" name="cargo"></p>
-                <p> <label> Sueldo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="suedo" name="sueldo"></p>
-                <p> <label> Nombre de usuario: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="usuario" name="nombreUsuario"></p>
-                <p> <label> Contraseña: </label> &nbsp; <input type="password"class="form-control" id="text1" placeholder="contraseña" name="contrasenia"></p>
+                <p> <label> Nombre: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="nombre"></p>
+                <p> <label> Apellido: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="apellido"></p>
+                <p> <label> Cargo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="cargo"></p>
+                <p> <label> Sueldo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="suedo"></p>
+                <p> <label> Nombre de usuario: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="nombreUsuario"></p>
+                <p> <label> Contraseña: </label> &nbsp; <input type="password"class="form-control" id="text1" placeholder="contrasenia"></p>
 
                 <div class="form-group">
                     <div class="col-md-10">

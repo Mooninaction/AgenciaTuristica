@@ -2,27 +2,36 @@ package logica;
 
 import java.util.Date;
 import java.util.List;
+import javax.persistence.Basic;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.ManyToMany;
-import javax.persistence.OneToMany;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
+@Entity
 public class Servicio {
 
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private int codigoServicio;
+    @Basic
     private String nombre;
     private String descripcionBreve;
     private String destinoServicio;
+    @Temporal(TemporalType.DATE)
     private Date fechaServicio;
     private int costoServicio;
     private tipoServicio tipoServicio;
     @ManyToMany
     public List<PaqueteTuristico> listaPaquetes;
-    @OneToMany
-    public Venta venta;
-    
+        
     public Servicio() {
     }
 
-    public Servicio(int codigoServicio, String nombre, String descripcionBreve, String destinoServicio, Date fechaServicio, int costoServicio, tipoServicio tipoServicio, List<PaqueteTuristico> listaPaquetes, Venta venta) {
+    public Servicio(int codigoServicio, String nombre, String descripcionBreve, String destinoServicio, Date fechaServicio, int costoServicio, tipoServicio tipoServicio, List<PaqueteTuristico> listaPaquetes) {
         this.codigoServicio = codigoServicio;
         this.nombre = nombre;
         this.descripcionBreve = descripcionBreve;
@@ -31,7 +40,6 @@ public class Servicio {
         this.costoServicio = costoServicio;
         this.tipoServicio = tipoServicio;
         this.listaPaquetes = listaPaquetes;
-        this.venta = venta;
     }
 
     public int getCodigoServicio() {
@@ -98,12 +106,4 @@ public class Servicio {
         this.listaPaquetes = listaPaquetes;
     }
 
-    public Venta getVenta() {
-        return venta;
-    }
-
-    public void setVenta(Venta venta) {
-        this.venta = venta;
-    }
-    
 }

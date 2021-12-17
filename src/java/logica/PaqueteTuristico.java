@@ -1,14 +1,21 @@
 package logica;
 
 import java.util.List;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
+@Entity
 public class PaqueteTuristico {
 
-private int codigoPaquete;
-private double costoPaquete;
-@ManyToMany
-public List<Servicio> listaServicios;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private int codigoPaquete;
+    private double costoPaquete;
+    @ManyToMany
+    public List<Servicio> listaServicios;
 
     public PaqueteTuristico() {
     }
@@ -42,5 +49,5 @@ public List<Servicio> listaServicios;
     public void setListaServicios(List<Servicio> listaServicios) {
         this.listaServicios = listaServicios;
     }
-    
+
 }

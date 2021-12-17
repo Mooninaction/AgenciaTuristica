@@ -1,35 +1,37 @@
 package logica;
 
 import java.util.Date;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-import logica.entidades.Cliente;
-import logica.entidades.Empleado;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
+@Entity
 public class Venta {
     
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     private int numVenta;
+    @Temporal(TemporalType.DATE)
     private Date fechaVenta;
     private String medioPago;
     @ManyToOne
     private PaqueteTuristico paqueteTuristico;
     @ManyToOne
     private Servicio servicio;
-    @ManyToOne
-    private Empleado empleado;
-    @ManyToOne
-    private Cliente cliente;
 
     public Venta() {
     }
 
-    public Venta(int numVenta, Date fechaVenta, String medioPago, PaqueteTuristico paqueteTuristico, Servicio servicio, Empleado empleado, Cliente cliente) {
+    public Venta(int numVenta, Date fechaVenta, String medioPago, PaqueteTuristico paqueteTuristico, Servicio servicio) {
         this.numVenta = numVenta;
         this.fechaVenta = fechaVenta;
         this.medioPago = medioPago;
         this.paqueteTuristico = paqueteTuristico;
         this.servicio = servicio;
-        this.empleado = empleado;
-        this.cliente = cliente;
     }
 
     public int getNumVenta() {
@@ -71,22 +73,5 @@ public class Venta {
     public void setServicio(Servicio servicio) {
         this.servicio = servicio;
     }
-
-    public Empleado getEmpleado() {
-        return empleado;
-    }
-
-    public void setEmpleado(Empleado empleado) {
-        this.empleado = empleado;
-    }
-
-    public Cliente getCliente() {
-        return cliente;
-    }
-
-    public void setCliente(Cliente cliente) {
-        this.cliente = cliente;
-    }
-    
     
 }

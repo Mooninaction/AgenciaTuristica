@@ -5,6 +5,9 @@
     <class>logica.entidades.Cliente</class>
     <class>logica.entidades.Empleado</class>
     <class>logica.entidades.Usuario</class>
+    <class>logica.PaqueteTuristico</class>
+    <class>logica.Servicio</class>
+    <class>logica.Venta</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/tpfinal?serverTimezone=UTC"/>

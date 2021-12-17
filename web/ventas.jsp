@@ -1,11 +1,17 @@
+<%-- 
+    Document   : Ventas
+    Created on : 16 dic. 2021, 18:27:46
+    Author     : Luna
+--%>
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-    <head>
+   <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>ViajAndo Admin Empleados</title>
+        <title>ViajAndo Ventas</title>
 
         <!-- Bootstrap core CSS -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -22,18 +28,18 @@
     </head>
 
     <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-        <h1 class="centered fade-down">Alta Empleados</h1>
+        <h1 class="centered fade-down">Crear Venta</h1>
         <hr class="fade-down">
         <div  class="container">
-            <h3>Ingrese los datos de su empleado</h3>
-            <form action="SvEmpleado" method="POST">
+            <h3>Ingrese los datos de su venta</h3>
+            <form action="SvVenta" method="POST">
 
-                <p> <label> Nombre: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="nombre" name="nombre"></p>
-                <p> <label> Apellido: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="apellido" name="apellido"></p>
-                <p> <label> Cargo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="cargo" name="cargo"></p>
-                <p> <label> Sueldo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="suedo" name="sueldo"></p>
-                <p> <label> Nombre de usuario: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="usuario" name="nombreUsuario"></p>
-                <p> <label> Contraseña: </label> &nbsp; <input type="password"class="form-control" id="text1" placeholder="contraseña" name="contrasenia"></p>
+                <p> <label> Fecha: </label> &nbsp; <input  type="date" class="form-control" id="text1" placeholder="fechaVenta"></p>
+                <p> <label> Medio de pago: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="medioPago"></p>
+                <p> <label> Paquete Turístico: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="paqueteTuristico"></p>
+                <p> <label> Servicio: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="servicio"></p>
+                <p> <label> Nombre de usuario: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="nombreUsuario"></p>
+                <p> <label> Contraseña: </label> &nbsp; <input type="password"class="form-control" id="text1" placeholder="contrasenia"></p>
 
                 <div class="form-group">
                     <div class="col-md-10">

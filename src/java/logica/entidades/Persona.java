@@ -9,7 +9,7 @@ public class Persona {
     private String direccion;
     private String dni;
 
-    private Date fecha_nac;
+    private Date fechaNacimiento;
     private String nacionalidad;
     private String celular;
     private String email;
@@ -17,12 +17,12 @@ public class Persona {
     public Persona() {
     }
 
-    public Persona(String nombre, String apellido, String direccion, String dni, Date fecha_nac, String nacionalidad, String celular, String email) {
+    public Persona(String nombre, String apellido, String direccion, String dni, Date fechaNacimiento, String nacionalidad, String celular, String email) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.direccion = direccion;
         this.dni = dni;
-        this.fecha_nac = fecha_nac;
+        this.fechaNacimiento = fechaNacimiento;
         this.nacionalidad = nacionalidad;
         this.celular = celular;
         this.email = email;
@@ -60,12 +60,12 @@ public class Persona {
         this.dni = dni;
     }
 
-    public Date getFecha_nac() {
-        return fecha_nac;
+    public Date getFechaNacimiento() {
+        return fechaNacimiento;
     }
 
-    public void setFecha_nac(Date fecha_nac) {
-        this.fecha_nac = fecha_nac;
+    public void setFechaNacimiento(Date fechaNacimiento) {
+        this.fechaNacimiento = fechaNacimiento;
     }
 
     public String getNacionalidad() {

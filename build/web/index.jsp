@@ -38,11 +38,11 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li><a href="#home" class="smoothScroll">Inicio</a></li>
-                            <li> <a href="#about" class="smoothScroll">Paquetes</a></li>
+                            <li> <a href="paquetes.jsp" class="smoothScroll">Paquetes</a></li>
                             <li> <a href="servicios.jsp" class="smoothScroll">Servicios</a></li>					
                             <li> <a href="empleados.jsp" class="smoothScroll">Empleados</a></li>
-                            <li> <a href="#portfolio" class="smoothScroll">Ventas</a></li>
-                            <li> <a href="#blog" class="smoothScroll">Login</a></li>
+                            <li> <a href="ventas.jsp" class="smoothScroll">Ventas</a></li>
+                            <li> <a href="login.jsp" class="smoothScroll">Login</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>

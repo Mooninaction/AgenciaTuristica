@@ -28,12 +28,12 @@
             <h3>Ingrese los datos de su empleado</h3>
             <form action="SvEmpleado" method="POST">
 
-                <p> <label> Nombre: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="nombre"></p>
-                <p> <label> Apellido: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="apellido"></p>
-                <p> <label> Cargo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="cargo"></p>
-                <p> <label> Sueldo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="suedo"></p>
-                <p> <label> Nombre de usuario: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="nombreUsuario"></p>
-                <p> <label> Contraseña: </label> &nbsp; <input type="password"class="form-control" id="text1" placeholder="contrasenia"></p>
+                <p> <label> Nombre: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="nombre" name="nombre"></p>
+                <p> <label> Apellido: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="apellido" name="apellido"></p>
+                <p> <label> Cargo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="cargo" name="cargo"></p>
+                <p> <label> Sueldo: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="suedo" name="sueldo"></p>
+                <p> <label> Nombre de usuario: </label> &nbsp; <input  type="text" class="form-control" id="text1" placeholder="usuario" name="nombreUsuario"></p>
+                <p> <label> Contraseña: </label> &nbsp; <input type="password"class="form-control" id="text1" placeholder="contraseña" name="contrasenia"></p>
 
                 <div class="form-group">
                     <div class="col-md-10">
