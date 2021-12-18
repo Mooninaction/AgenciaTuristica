@@ -1,5 +1,6 @@
 package logica;
 
+import java.io.Serializable;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToMany;
 
 @Entity
-public class PaqueteTuristico {
+public class PaqueteTuristico implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -48,6 +49,11 @@ public class PaqueteTuristico {
 
     public void setListaServicios(List<Servicio> listaServicios) {
         this.listaServicios = listaServicios;
+    }
+
+    @Override
+    public String toString() {
+        return "PaqueteTuristico{" + "codigoPaquete=" + codigoPaquete + ", costoPaquete=" + costoPaquete + ", listaServicios=" + listaServicios + '}';
     }
 
 }

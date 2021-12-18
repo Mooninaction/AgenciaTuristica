@@ -1,5 +1,7 @@
 package logica;
 
+import logica.enumera.tipoServicio;
+import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.Basic;
@@ -12,10 +14,10 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-public class Servicio {
+public class Servicio implements Serializable {
 
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int codigoServicio;
     @Basic
     private String nombre;
@@ -27,7 +29,7 @@ public class Servicio {
     private tipoServicio tipoServicio;
     @ManyToMany
     public List<PaqueteTuristico> listaPaquetes;
-        
+
     public Servicio() {
     }
 
@@ -104,6 +106,15 @@ public class Servicio {
 
     public void setListaPaquetes(List<PaqueteTuristico> listaPaquetes) {
         this.listaPaquetes = listaPaquetes;
+    }
+
+    void setCostoServicio(Double costo) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String toString() {
+        return "Servicio{" + "codigoServicio=" + codigoServicio + ", nombre=" + nombre + ", descripcionBreve=" + descripcionBreve + ", destinoServicio=" + destinoServicio + ", fechaServicio=" + fechaServicio + ", costoServicio=" + costoServicio + ", tipoServicio=" + tipoServicio + ", listaPaquetes=" + listaPaquetes + '}';
     }
 
 }

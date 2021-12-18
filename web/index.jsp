@@ -49,15 +49,12 @@
             </div>
         </div>
 
-
-
-        <!-- ==== HEADERWRAP ==== -->
+        <!-- ==== ENCABEZADO ==== -->
         <div id="headerwrap" id="home" name="home">
             <header class="clearfix">
                 <h1 class="animated bounceIn">Tu agencia de turismo</h1>
                 <p class="animated slideInLeft">La mejor forma de administrar tu agencia</p>
-                <p class="animated slideInRight">Estamos para vos.</p>
-                <a href="#about" class="btn homebtn smoothScroll">Leer más <i class="el-icon-chevron-down homeicon"></i></a>
+                <p class="animated slideInRight">Estamos para vos.</p>                
             </header>	    
         </div><!-- /headerwrap -->
 
@@ -65,15 +62,37 @@
         <!-- ==== ABOUT ==== -->
         <div class="container" id="about" name="about">
             <div class="row white">
-                <h1 class="fade-down centered">A LITTLE ABOUT US</h1>
+                <h1 class="fade-down centered">Un poco sobre nosotros</h1>
                 <hr>
 
                 <div class="fade-up col-md-6">
-                    <p>Insipidity the sufficient discretion imprudence resolution sir him decisively. Proceed how any engaged visitor. Explained propriety off out perpetual his you. Feel sold off felt nay rose met you. We so entreaties cultivated astonished is. Was sister for few longer mrs sudden talent become. Done may bore quit evil old mile. If likely am of beauty tastes. </p>
+                    <p>I'm the Scatman
+                        Ski-bi dibby dib yo da dub dub
+                        Yo da dub dub
+                        Ski-bi dibby dib yo da dub dub
+                        Yo da dub dub
+                        (I'm the Scatman)
+                        Ski-bi dibby dib yo da dub dub
+                        Yo da dub dub
+                        Ski-bi dibby dib yo da dub dub
+                        Yo da dub dub
+                        Ba-da-ba-da-ba-be bop bop bodda bope
+                        Bop ba bodda bope
+                        Be bop ba bodda bope
+                        Bop ba bodda
+                        Ba-da-ba-da-ba-be bop ba bodda bope
+                        Bop ba bodda bope
+                        Be bop ba bodda bope
+                        Bop ba bodda bope</p>
                 </div><!-- col-md-6 -->
 
                 <div class="fade-up col-md-6">
-                    <p>Arrived totally in as between private. Favour of so as on pretty though elinor direct. Reasonable estimating be alteration we themselves entreaties me of reasonably. Direct wished so be expect polite valley. Whose asked stand it sense no spoil to. Prudent you too his conduct feeling limited and. Side he lose paid as hope so face upon be. Goodness did suitable learning put. </p>
+                    <p>Yo, I'll tell you what I want, what I really, really want
+                        So tell me what you want, what you really, really want
+                        I'll tell you what I want, what I really, really want
+                        So tell me what you want, what you really, really want
+                        I wanna, (ha) I wanna, (ha) I wanna, (ha) I wanna, (ha)
+                        I wanna really, really, really wanna zigazig ah</p>
                 </div><!-- col-md-6 -->
             </div><!-- row -->
         </div><!-- container -->
@@ -81,15 +100,15 @@
         <!-- ==== SECTION DIVIDER2 -->
         <section class="section-divider textdivider divider2">
             <div class="container">
-                <h1 class="fade-down">HERE IS THE PROOF</h1>
+                <h1 class="fade-down">AQUÍ ESTÁ LA PRUEBA</h1>
                 <hr>
                 <div class="col-md-3">
                     <span class="counter">100</span>
-                    <span class="counter-desc">Percent Focus</span>
+                    <span class="counter-desc">Enfoque porcentual</span>
                 </div>
                 <div class="col-md-3">
                     <span class="counter">1000</span>
-                    <span class="counter-desc">Minimum Saving</span>
+                    <span class="counter-desc">Ahorro mínimo</span>
                 </div>
                 <div class="col-md-3">
                     <span class="counter">10000</span>
@@ -97,7 +116,7 @@
                 </div>
                 <div class="col-md-3">
                     <span class="counter">100000</span>
-                    <span class="counter-desc">Profit</span>
+                    <span class="counter-desc">Beneficio</span>
                 </div>
             </div><!-- container -->
         </section><!-- section -->
@@ -106,7 +125,7 @@
         <div class="container section" id="team" name="team">
             <br>
             <div class="row white centered">
-                <h1 class="fade-down centered">MEET THE DELTA TEAM</h1>
+                <h1 class="fade-down centered">CONOCE AL EQUIPO DELTA</h1>
                 <hr class="fade-down title-mb">
                 <div class="col-md-4 ">
                     <div class="col-md-3 col-sm-3 col-xs-3 fade-down team-image-wrapper">
@@ -116,8 +135,8 @@
                         <a href="#" class="team-social flickr"><i class="el-icon-flickr"></i></a>
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-9 fade-up team-info">
-                        <h4>Danny Jones</h4>
-                        <p>TRemain valley who mrs uneasy remove wooded him you. Her questions favourite him concealed. We to wife face took he. The taste begin early old why since dried can first. Prepared as or humoured formerly. Evil mrs true get post. Express village evening prudent my as ye hundred forming..</p>
+                        <h4>Daniela Jengi</h4>
+                        <p>No mis botones … de gomita -  Pisar césped es nulo. Asear pies y cu…tis. Duloc es, Duloc es - “Algunos tal vez mueran, pero es un sacrificio que estoy dispuesto a aceptar” - Lord Farquaad. </p>
                     </div>
                 </div>
 
@@ -129,8 +148,8 @@
                         <a href="#" class="team-social flickr"><i class="el-icon-flickr"></i></a>
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-9 fade-up team-info">
-                        <h4>John Smith</h4>
-                        <p>Smile spoke total few great had never their too. Amongst moments do in arrived at my replied. Fat weddings servants but man believed prospect. Companions understood is as especially pianoforte connection introduced.</p>
+                        <h4>Fiona Lara</h4>
+                        <p>“Gracias, muchísimas gracias, doy clases los jueves, no cobro mucho” - Shrek. “Uff, Shrek, ¿tu hiciste eso? No manches. Avisa antes de echarte uno, traía la boca abierta. Le di el golpe” - Burro </p>
                     </div>
                 </div>
 
@@ -142,38 +161,20 @@
                         <a href="#" class="team-social flickr"><i class="el-icon-flickr"></i></a>
                     </div>
                     <div class="col-md-9 col-sm-9 col-xs-9 fade-up team-info">
-                        <h4>Lowri Roberts</h4>
-                        <p>In felicity up to graceful mistaken horrible consider. Abode never think to at. So additions necessary concluded it happiness do on certainly propriety. On in green taken do offer witty of.</p>
+                        <h4>Mari Sanchez</h4>
+                        <p>“Ay sí, tú, azufre. ¿A quién quieres engañar? SI hubiera sido azufre mi nariz no sufre“- Burro.   “Eres un, un… un primor de dragonuzuela, oh claro, preciosa”- Burro. </p>
                     </div>
                 </div>
 
             </div><!-- row -->
         </div><!-- container -->
 
-        <!-- ==== GREYWRAP ==== -->
-        <div class="greywrap">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 centered fade-up">
-                        <img class="img-responsive" src="images/macbook.png" align="">
-                    </div>
-                    <div class="col-md-6 fade-down">
-                        <h2>Could You Be The Next Delta Ninja?</h2>
-                        <p>Often voice and the spoke. No shewing fertile village equally prepare up females as an. That do an case an what plan hour of paid. Invitation is unpleasant astonished preference attachment friendship on</p>
-                        <p><a class="btn btn-success">Contact Us</a></p>
-                    </div>					
-                </div><!-- row -->
-            </div>
-            <br>
-            <br>
-        </div><!-- greywrap -->
-
         <!-- ==== SECTION DIVIDER3 -->
         <section class="section-divider textdivider divider3">
             <div class="container">
-                <h1 class="fade-down">DELTA TEAM WILL HELP YOU GROW</h1>
+                <h1 class="fade-down">ViajAndo TE AYUDARÁ A CRECER</h1>
                 <hr>
-                <p class="fade-up">Bringing him smallest met few now returned surprise learning jennings. Objection delivered eagerness he exquisite at do in. Warmly up he nearer mr merely me.</p>
+                <p class="fade-up">Mira lo que se avecina a la vuelta de la esquina Viene Diego rumbeando Con la luna en las pupilas y su traje agua marina Van restos de contrabando Y donde más no cabe un alma allí mete a darse caña Poseído por el ritmo ragatanga Y el DJ que lo conoce toca el himno de las 12 Para Diego la canción más deseada Y la baila y la goza y la canta Y aserejé-ja-dejé De jebe tu de jebere seibiunouva majavi an de bugui an de güididípi</p>
             </div><!-- container -->
         </section><!-- section -->
 
@@ -181,7 +182,7 @@
         <div id="portfolio" name="portfolio">
             <br>
             <div class="row white">
-                <h1 class="fade-down centered">SOME OF WHAT WE HAVE DONE</h1>
+                <h1 class="fade-down centered">Imagenes de como he estado este año</h1>
                 <hr class="fade-down title-mb">
             </div><!-- /row -->
             <div class="">
@@ -194,7 +195,7 @@
                                 <figure>
                                     <img class="img-responsive" src="images/folio01.jpg" alt="">
                                     <figcaption>
-                                        <h5>PROJECT ONE</h5>
+                                        <h5>Convivencia al límite</h5>
                                         <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
                                         <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
                                     </figcaption><!-- /figcaption -->
@@ -208,7 +209,7 @@
                                 <figure>
                                     <img class="img-responsive" src="images/folio02.jpg" alt="">
                                     <figcaption>
-                                        <h5>PROJECT TWO</h5>
+                                        <h5>Ganas de viajar a donde sea</h5>
                                         <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
                                         <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
                                     </figcaption><!-- /figcaption -->
@@ -222,7 +223,7 @@
                                 <figure>
                                     <img class="img-responsive" src="images/folio03.jpg" alt="">
                                     <figcaption>
-                                        <h5>PROJECT THREE</h5>
+                                        <h5>Escuchando musica</h5>
                                         <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
                                         <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
                                     </figcaption><!-- /figcaption -->
@@ -236,7 +237,7 @@
                                 <figure>
                                     <img class="img-responsive" src="images/folio04.jpg" alt="">
                                     <figcaption>
-                                        <h5>PROJECT FOUR</h5>
+                                        <h5>Mas ganas de viajar</h5>
                                         <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
                                         <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
                                     </figcaption><!-- /figcaption -->
@@ -250,7 +251,7 @@
                                 <figure>
                                     <img class="img-responsive" src="images/folio05.jpg" alt="">
                                     <figcaption>
-                                        <h5>PROJECT FIVE</h5>
+                                        <h5>Creer que estoy en un video clip</h5>
                                         <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
                                         <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
                                     </figcaption><!-- /figcaption -->
@@ -264,91 +265,7 @@
                                 <figure>
                                     <img class="img-responsive" src="images/folio06.jpg" alt="">
                                     <figcaption>
-                                        <h5>PROJECT SIX</h5>
-                                        <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
-                                        <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
-                                    </figcaption><!-- /figcaption -->
-                                </figure><!-- /figure -->
-                            </div><!-- /grid-mask -->
-                        </div><!-- /col -->
-
-                        <!-- PORTFOLIO IMAGE 1 -->
-                        <div class="fade-up col-md-4 ">
-                            <div class="grid mask">
-                                <figure>
-                                    <img class="img-responsive" src="images/folio01.jpg" alt="">
-                                    <figcaption>
-                                        <h5>PROJECT SEVEN</h5>
-                                        <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
-                                        <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
-                                    </figcaption><!-- /figcaption -->
-                                </figure><!-- /figure -->
-                            </div><!-- /grid-mask -->
-                        </div><!-- /col -->				
-
-                        <!-- PORTFOLIO IMAGE 2 -->
-                        <div class="fade-up col-md-4">
-                            <div class="grid mask">
-                                <figure>
-                                    <img class="img-responsive" src="images/folio02.jpg" alt="">
-                                    <figcaption>
-                                        <h5>PROJECT EIGHT</h5>
-                                        <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
-                                        <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
-                                    </figcaption><!-- /figcaption -->
-                                </figure><!-- /figure -->
-                            </div><!-- /grid-mask -->
-                        </div><!-- /col -->
-
-                        <!-- PORTFOLIO IMAGE 3 -->
-                        <div class="fade-up col-md-4">
-                            <div class="grid mask">
-                                <figure>
-                                    <img class="img-responsive" src="images/folio03.jpg" alt="">
-                                    <figcaption>
-                                        <h5>PROJECT NINE</h5>
-                                        <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
-                                        <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
-                                    </figcaption><!-- /figcaption -->
-                                </figure><!-- /figure -->
-                            </div><!-- /grid-mask -->
-                        </div><!-- /col -->
-
-                        <!-- PORTFOLIO IMAGE 4 -->
-                        <div class="fade-up col-md-4 ">
-                            <div class="grid mask">
-                                <figure>
-                                    <img class="img-responsive" src="images/folio04.jpg" alt="">
-                                    <figcaption>
-                                        <h5>PROJECT TEN</h5>
-                                        <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
-                                        <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
-                                    </figcaption><!-- /figcaption -->
-                                </figure><!-- /figure -->
-                            </div><!-- /grid-mask -->
-                        </div><!-- /col -->
-
-                        <!-- PORTFOLIO IMAGE 5 -->
-                        <div class="fade-up col-md-4">
-                            <div class="grid mask">
-                                <figure>
-                                    <img class="img-responsive" src="images/folio05.jpg" alt="">
-                                    <figcaption>
-                                        <h5>PROJECT ELEVEN</h5>
-                                        <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
-                                        <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
-                                    </figcaption><!-- /figcaption -->
-                                </figure><!-- /figure -->
-                            </div><!-- /grid-mask -->
-                        </div><!-- /col -->
-
-                        <!-- PORTFOLIO IMAGE 6 -->
-                        <div class="fade-up col-md-4">
-                            <div class="grid mask">
-                                <figure>
-                                    <img class="img-responsive" src="images/folio06.jpg" alt="">
-                                    <figcaption>
-                                        <h5>PROJECT TWELVE</h5>
+                                        <h5>Suponer que cuento un secreto y soplar Muajaja</h5>
                                         <a href="single-project.html" class="btn btn-primary btn-lg"><i class="el-icon-link"></i></a>
                                         <a href="images/folio01.jpg" class="btn btn-primary btn-lg launch-lb"><i class="el-icon-zoom-in"></i></a>
                                     </figcaption><!-- /figcaption -->
@@ -365,9 +282,14 @@
         <!-- ==== SECTION DIVIDER4 ==== -->
         <section class="section-divider textdivider divider4">
             <div class="container">
-                <h1 class="fade-down">YOU HAVE THE POTENTIAL</h1>
+                <h1 class="fade-down">VOS TENES EL POTENCIAL</h1>
                 <hr>
-                <p class="fade-up">Bringing him smallest met few now returned surprise learning jennings. Objection delivered eagerness he exquisite at do in. Warmly up he nearer mr merely me.</p>
+                <p class="fade-up">Si tú me hubieras dicho siempre la verdad
+                    Si hubieras respondido cuando te llamé
+                    Si hubieras amado cuando te amé
+                    Serías en mis sueños la mejor mujer
+                    Si no supiste amar
+                    Ahora te puedes marchar</p>
             </div><!-- container -->
         </section><!-- section -->
 
@@ -388,14 +310,30 @@
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-2 blog-meta fade-down">
                         <img class="img" src="images/team01.jpg">
-                        <h4>John Smith</h4>
-                        <h5>Published April 7th.</h5>
+                        <h4>Carol G</h4>
+                        <h5>Publicado Diciembre 17</h5>
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-10 blog-content fade-up">
-                        <h2>A Beautiful Story</h2>
-                        <p>Armed with insight, we embark on designing the right brand experience that engages the audience. It encompasses both the strategic direction and creative execution that solves a business problem and brings the brand to life.</p>
-                        <p>In the create phase, the big idea is unleashed to the world through different media touchpoints. This is when we watch the audience fall in love all over again with our clients brand.</p>
-                        <p><a href="single-post.html" class="btn btn-success">Read More</a></p>
+                        <h2>Una hermosa historia</h2>
+                        <p>Tuviste todo un año completo
+                            Para poder adelgazar
+                            Hoy ya no aplica pensar en éso
+                            Pues ha llegado Navidad
+                            Pero tranquilo, no te deprimas
+                            Para que te sientas mejor
+                            Piensa que alguno de tus amigos
+                            De seguro está peor
+
+                            Estar gordito no está mal
+                            Y mucho menos en Navidad
+
+                            En el gimnasio nunca sudabas
+                            Tomabas fotos nada más
+
+                            Decías que estabas haciendo dieta
+                            Y no dejabas de tragar</p>
+
+                        <p><a href="https://youtu.be/tz98Q9HCWn8" class="btn btn-success">Escuchar</a></p>
                     </div>
                 </div><!-- /col -->
 
@@ -406,14 +344,26 @@
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-2 blog-meta fade-down">
                         <img class="img" src="images/team02.jpg">
-                        <h4>Dan Jones</h4>
+                        <h4>Shaggy Rokrok</h4>
                         <h5>Published April 4th.</h5>
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-10 blog-content fade-up">
-                        <h2>A Beautiful Story</h2>
-                        <p>Armed with insight, we embark on designing the right brand experience that engages the audience. It encompasses both the strategic direction and creative execution that solves a business problem and brings the brand to life.</p>
-                        <p>In the create phase, the big idea is unleashed to the world through different media touchpoints. This is when we watch the audience fall in love all over again with our clients brand.</p>
-                        <p><a href="single-post.html" class="btn btn-success">Read More</a></p>
+                        <h2>Di que no fuiste tu</h2>
+                        <p>Yo man
+                            Yo
+                            Open up, man
+                            Yo, what you want, man?
+                            My girl just caught me
+                            You made her catch you?
+                            I don't know how I let this happen
+                            With who?
+                            The girl next door, you know?
+                            Man...
+                            I don't know what to do
+                            Say it wasn't you
+                            Alright</p>
+                        <p>Honey came in and she caught me red-handed Creeping with the girl next door Picture this, we were both butt-naked Banging on the bathroom floor How could I forget that I had given her an extra key All this time she was standing there She never took her eyes off me</p>
+                        <p><a href="https://www.youtube.com/watch?v=T_x6QmuJdms" class="btn btn-success">Escuchar</a></p>
                     </div>
                 </div><!-- /col -->
 
@@ -424,14 +374,26 @@
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-2 blog-meta fade-down">
                         <img class="img" src="images/team03.jpg">
-                        <h4>John Smith</h4>
+                        <h4>Eduard Jil</h4>
                         <h5>Published April 2nd.</h5>
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-10 blog-content fade-up">
-                        <h2>A Beautiful Story</h2>
-                        <p>Armed with insight, we embark on designing the right brand experience that engages the audience. It encompasses both the strategic direction and creative execution that solves a business problem and brings the brand to life.</p>
-                        <p>In the create phase, the big idea is unleashed to the world through different media touchpoints. This is when we watch the audience fall in love all over again with our clients brand.</p>
-                        <p><a href="single-post.html" class="btn btn-success">Read More</a></p>
+                        <h2>Trololo</h2>
+                        <p>Aaaaaiaiaia, aiaia,ia,iaia.
+                            Ooooo,iaiaia,iaiaia,ia,iaia.
+                            Iuiuiuiuiui,uiuiui,uiuiui,hohohohoho.
+                            Iuiuiuiuiui,uiuiui,uiuiui,oooooooo,ioioio,ioioio,io,ioio
+                            Nanananana,nanana,nanana,nanana,nanana.
+                            Nanananana,nanana,nanana,nanananana.
+                            Nananananaaaaaaaaaaa nanana, nanana,na,nana.
+                            Lololololoooooo, lolalaaaaaaaa,lalala,la,lala.
+                            Hohohohoho,hohoho,hohoho,hohohohoho.
+                            Lohohohoho,hohoho,hohoho,lololololo.
+                            Aaaaiiiiiiiiiiiiiiiiii,iii,lalala,la,lala.
+                            Hooooooooo,paparararaia,raraia,lalala,la,lala.
+                        </p>
+                        <p>Esta canción ha sido traducida en 5 idiomas</p>
+                        <p><a href="https://www.youtube.com/watch?v=2Z4m4lnjxkY" class="btn btn-success">¿Cómo?</a></p>
                     </div>
                 </div><!-- /col -->
 
@@ -442,14 +404,21 @@
                     </div>
                     <div class="col-md-2 col-sm-2 col-xs-2 blog-meta fade-down">
                         <img class="img" src="images/team04.jpg">
-                        <h4>John Smith</h4>
-                        <h5>Published April 1st.</h5>
+                        <h4>Coolio YLV</h4>
+                        <h5>Publicado en 2010</h5>
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-10 blog-content fade-up">
-                        <h2>A Beautiful Story</h2>
-                        <p>Armed with insight, we embark on designing the right brand experience that engages the audience. It encompasses both the strategic direction and creative execution that solves a business problem and brings the brand to life.</p>
+                        <h2>Paraiso de Gangstas</h2>
+                        <p>As I walk through the valley of the shadow of death
+                            I take a look at my life and realize there's nothin' left
+                            'Cause I've been blastin' and laughin' so long that
+                            Even my momma thinks that my mind is gone
+                            But I ain't never crossed a man that didn't deserve it
+                            Me be treated like a punk, you know that's unheard of
+                            You better watch how you talkin' and where you walkin'
+                            Or you and your homies might be lined in chalk</p>
                         <p>In the create phase, the big idea is unleashed to the world through different media touchpoints. This is when we watch the audience fall in love all over again with our clients brand.</p>
-                        <p><a href="single-post.html" class="btn btn-success">Read More</a></p>
+                        <p><a href="https://www.youtube.com/watch?v=fPO76Jlnz6c" class="btn btn-success">¿Cuál?</a></p>
                     </div>
                 </div><!-- /col -->
 
@@ -462,11 +431,11 @@
         <!-- ==== SECTION DIVIDER6 ==== -->
         <section class="section-divider textdivider divider6">
             <div class="container">
-                <h1 class="fade-down">CRAFTED IN NEW YORK, USA.</h1>
+                <h1 class="fade-down">Editado desde la imaginacion de una niña</h1>
                 <hr>
                 <div class="fade-up">
-                    <p>Times Square, New York</p>
-                    <p>+12 12345 123</p>
+                    <p>En el cuerpo de una adulta</p>
+                    <p>al principio fue gracioso, después se enojó y fue aún más gracioso</p>
                 </div>
             </div><!-- container -->
         </section><!-- section -->
@@ -478,38 +447,18 @@
                 <hr class="fade-down title-mb">
                 <div class="col-md-4 fade-up">
                     <h3>Información de Contacto</h3>
-                    <p><span class="icon icon-home"></span>Time Square, New York<br/>
-                        <span class="icon icon-phone"></span>+12 12345 123<br/>
+                    <p><span class="icon icon-home"></span>Mendoza, Argentina<br/>
+                        <span class="icon icon-phone"></span>+549 261 6428151<br/>
                         <span class="icon icon-mobile"></span>+12 12345 123<br/>
-                        <span class="icon icon-envelop"></span> <a href="#">email@templatestock.com</a> <br/>
-                        <span class="icon icon-twitter"></span> <a href="#">@templatestock.com</a> <br/>
-                        <span class="icon icon-facebook"></span> <a href="#">templatestock</a> <br/>
+                        <span class="icon icon-envelop"></span> <a href="#">lunasauri.ls@gmail.com</a> <br/>
+                        <span class="icon icon-twitter"></span> <a href="#">@lunasauri.com</a> <br/>
+                        <span class="icon icon-facebook"></span> <a href="#">Luna Sauri</a> <br/>
                     </p>
                 </div><!-- col -->
 
                 <div class="col-md-4 fade-up">
                     <h3>Boletín Informativo</h3>
                     <p>Regístrese en nuestro boletín de noticias y manténgase actualizado con la información más reciente sobre nuestros servicios, ofertas y mucho más.</p>
-
-                    <form class="form-horizontal" role="form">
-                        <div class="form-group">
-                            <label for="inputEmail1" class="col-md-4 control-label"></label>
-                            <div class="col-md-10">
-                                <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="text1" class="col-md-4 control-label"></label>
-                            <div class="col-md-10">
-                                <input type="text" class="form-control" id="text1" placeholder="Tu nombre">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="col-md-10">
-                                <button type="submit" class="btn btn-success">Entrar</button>
-                            </div>
-                        </div>
-                    </form><!-- form -->
 
                 </div><!-- col -->
 

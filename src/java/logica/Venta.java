@@ -1,5 +1,6 @@
 package logica;
 
+import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -10,10 +11,10 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-public class Venta {
-    
+public class Venta implements Serializable {
+
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int numVenta;
     @Temporal(TemporalType.DATE)
     private Date fechaVenta;
@@ -73,5 +74,10 @@ public class Venta {
     public void setServicio(Servicio servicio) {
         this.servicio = servicio;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Venta{" + "numVenta=" + numVenta + ", fechaVenta=" + fechaVenta + ", medioPago=" + medioPago + ", paqueteTuristico=" + paqueteTuristico + ", servicio=" + servicio + '}';
+    }
+
 }

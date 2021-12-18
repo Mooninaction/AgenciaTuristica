@@ -12,9 +12,9 @@ import logica.Venta;
 
 @Entity
 public class Cliente extends Persona implements Serializable {
-    
+
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int idCliente;
     @OneToMany
     private Empleado empleado;
@@ -60,6 +60,10 @@ public class Cliente extends Persona implements Serializable {
     public void setVenta(Venta venta) {
         this.venta = venta;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Cliente{" + "idCliente=" + idCliente + ", empleado=" + empleado + ", venta=" + venta + '}';
+    }
+
 }

@@ -92,4 +92,9 @@ public class Persona {
         this.email = email;
     }
 
+    @Override
+    public String toString() {
+        return "Persona{" + "nombre=" + nombre + ", apellido=" + apellido + ", direccion=" + direccion + ", dni=" + dni + ", fechaNacimiento=" + fechaNacimiento + ", nacionalidad=" + nacionalidad + ", celular=" + celular + ", email=" + email + '}';
+    }
+
 }

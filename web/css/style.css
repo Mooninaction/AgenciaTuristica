@@ -1152,7 +1152,7 @@ span.counter {
 @media screen and (max-width:1050px), screen and (max-device-width:1050px) {
     body .header {
         background-attachment: scroll;
-    };
+    }
 }
 
 
@@ -1160,7 +1160,7 @@ span.counter {
 @media only screen and (min-device-width:768px) and (max-device-width : 1024px) and (orientation : portrait) {
     .header {
         background-attachment: scroll;
-    };
+    }
 }
 
 @media screen and (max-width:769px) {
@@ -1171,7 +1171,7 @@ span.counter {
     #headerwrap p {
         font-size: 30px;
         line-height: 38px;
-    };
+    }
 }
 
 /* image load animations */
@@ -1355,19 +1355,19 @@ span.counter {
 @-webkit-keyframes empty {
     0% {
         opacity: 1;
-    };
+    }
 }
 
 @-moz-keyframes empty {
     0% {
         opacity: 1;
-    };
+    }
 }
 
 @keyframes empty {
     0% {
         opacity: 1;
-    };
+    }
 }
 
 @-webkit-keyframes fadeIn {
@@ -1377,7 +1377,7 @@ span.counter {
 
     100% {
         opacity: 1;
-    };
+    }
 }
 
 @-moz-keyframes fadeIn {
@@ -1387,7 +1387,7 @@ span.counter {
 
     100% {
         opacity: 1;
-    };
+    }
 }
 
 @keyframes fadeIn {
@@ -1397,7 +1397,7 @@ span.counter {
 
     100% {
         opacity: 1;
-    };
+    }
 }
 
 @-webkit-keyframes fadeOut {
@@ -1407,7 +1407,7 @@ span.counter {
 
     100% {
         opacity: 0;
-    };
+    }
 }
 
 @-moz-keyframes fadeOut {
@@ -1417,7 +1417,7 @@ span.counter {
 
     100% {
         opacity: 0;
-    };
+    }
 }
 
 @keyframes fadeOut {
@@ -1427,7 +1427,7 @@ span.counter {
 
     100% {
         opacity: 0;
-    };
+    }
 }
 
 @-webkit-keyframes backSlideOut {
@@ -1444,7 +1444,7 @@ span.counter {
     100% {
         opacity: .5;
         -webkit-transform: translateZ(-500px) translateX(-200%);
-    };
+    }
 }
 
 @-moz-keyframes backSlideOut {
@@ -1461,7 +1461,7 @@ span.counter {
     100% {
         opacity: .5;
         -moz-transform: translateZ(-500px) translateX(-200%);
-    };
+    }
 }
 
 @keyframes backSlideOut {
@@ -1478,7 +1478,7 @@ span.counter {
     100% {
         opacity: .5;
         transform: translateZ(-500px) translateX(-200%);
-    };
+    }
 }
 
 @-webkit-keyframes backSlideIn {
@@ -1495,7 +1495,7 @@ span.counter {
     100% {
         opacity: 1;
         -webkit-transform: translateZ(0) translateX(0);
-    };
+    }
 }
 
 @-moz-keyframes backSlideIn {
@@ -1512,7 +1512,7 @@ span.counter {
     100% {
         opacity: 1;
         -moz-transform: translateZ(0) translateX(0);
-    };
+    }
 }
 
 @keyframes backSlideIn {
@@ -1529,88 +1529,88 @@ span.counter {
     100% {
         opacity: 1;
         transform: translateZ(0) translateX(0);
-    };
+    }
 }
 
 @-webkit-keyframes scaleToFade {
     to {
         opacity: 0;
         -webkit-transform: scale(.8);
-    };
+    }
 }
 
 @-moz-keyframes scaleToFade {
     to {
         opacity: 0;
         -moz-transform: scale(.8);
-    };
+    }
 }
 
 @keyframes scaleToFade {
     to {
         opacity: 0;
         transform: scale(.8);
-    };
+    }
 }
 
 @-webkit-keyframes goDown {
     from {
         -webkit-transform: translateY(-100%);
-    };
+    }
 }
 
 @-moz-keyframes goDown {
     from {
         -moz-transform: translateY(-100%);
-    };
+    }
 }
 
 @keyframes goDown {
     from {
         transform: translateY(-100%);
-    };
+    }
 }
 
 @-webkit-keyframes scaleUpFrom {
     from {
         opacity: 0;
         -webkit-transform: scale(1.5);
-    };
+    }
 }
 
 @-moz-keyframes scaleUpFrom {
     from {
         opacity: 0;
         -moz-transform: scale(1.5);
-    };
+    }
 }
 
 @keyframes scaleUpFrom {
     from {
         opacity: 0;
         transform: scale(1.5);
-    };
+    }
 }
 
 @-webkit-keyframes scaleUpTo {
     to {
         opacity: 0;
         -webkit-transform: scale(1.5);
-    };
+    }
 }
 
 @-moz-keyframes scaleUpTo {
     to {
         opacity: 0;
         -moz-transform: scale(1.5);
-    };
+    }
 }
 
 @keyframes scaleUpTo {
     to {
         opacity: 0;
         transform: scale(1.5);
-    };
+    }
 }
 
 /*
@@ -2119,7 +2119,7 @@ img.mfp-img {
         position: fixed;
         text-align: center;
         padding: 0;
-    };
+    }
 }
 
 @media all and (max-width: 900px) {
@@ -2141,7 +2141,7 @@ img.mfp-img {
     .mfp-container {
         padding-left: 6px;
         padding-right: 6px;
-    };
+    }
 }
 
 .mfp-ie7 .mfp-img {

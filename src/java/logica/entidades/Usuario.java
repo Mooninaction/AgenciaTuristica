@@ -10,14 +10,13 @@ import javax.persistence.OneToOne;
 
 @Entity
 public class Usuario implements Serializable {
-    
+
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     public int id;
     @Basic
     public String nombreUsuario;
     public String contrasenia;
-    
 
     public Usuario() {
     }
@@ -51,5 +50,10 @@ public class Usuario implements Serializable {
     public void setContrasenia(String contrasenia) {
         this.contrasenia = contrasenia;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Usuario{" + "id=" + id + ", nombreUsuario=" + nombreUsuario + ", contrasenia=" + contrasenia + '}';
+    }
+
 }
