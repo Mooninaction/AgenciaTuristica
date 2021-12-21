@@ -1,6 +1,6 @@
 package logica;
 
-import logica.enumera.tipoServicio;
+import logica.enumera.TipoServicio;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
@@ -25,15 +25,15 @@ public class Servicio implements Serializable {
     private String destinoServicio;
     @Temporal(TemporalType.DATE)
     private Date fechaServicio;
-    private int costoServicio;
-    private tipoServicio tipoServicio;
+    double costoServicio;
+    private TipoServicio tipoServicio;
     @ManyToMany
     public List<PaqueteTuristico> listaPaquetes;
 
     public Servicio() {
     }
 
-    public Servicio(int codigoServicio, String nombre, String descripcionBreve, String destinoServicio, Date fechaServicio, int costoServicio, tipoServicio tipoServicio, List<PaqueteTuristico> listaPaquetes) {
+    public Servicio(int codigoServicio, String nombre, String descripcionBreve, String destinoServicio, Date fechaServicio, double costoServicio, TipoServicio tipoServicio, List<PaqueteTuristico> listaPaquetes) {
         this.codigoServicio = codigoServicio;
         this.nombre = nombre;
         this.descripcionBreve = descripcionBreve;
@@ -84,19 +84,19 @@ public class Servicio implements Serializable {
         this.fechaServicio = fechaServicio;
     }
 
-    public int getCostoServicio() {
+    public double getCostoServicio() {
         return costoServicio;
     }
 
-    public void setCostoServicio(int costoServicio) {
+    public void setCostoServicio(double costoServicio) {
         this.costoServicio = costoServicio;
     }
 
-    public tipoServicio getTipoServicio() {
+    public TipoServicio getTipoServicio() {
         return tipoServicio;
     }
 
-    public void setTipoServicio(tipoServicio tipoServicio) {
+    public void setTipoServicio(TipoServicio tipoServicio) {
         this.tipoServicio = tipoServicio;
     }
 

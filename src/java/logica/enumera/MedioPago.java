@@ -5,7 +5,6 @@ public enum MedioPago {
     EFECTIVO("Efectivo", 0.0),
     DEBITO("Débito", 0.03),
     CREDITO("Crédito", 0.09),
-    MONEDERO("Monedero", 0.0),
     TRANSFERENCIA("Transferencia", 2.45);
 
     private String medio;

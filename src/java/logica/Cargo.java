@@ -1,5 +1,6 @@
 package logica;
 
+import java.io.Serializable;
 import java.util.List;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -9,14 +10,12 @@ import javax.persistence.OneToMany;
 import logica.entidades.Empleado;
 
 @Entity
-public class Cargo {
+public class Cargo implements Serializable {
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int idCargo;
-    
     private String nombreCargo;
-    
     private String tarea;
     private double sueldoBase;
     @OneToMany

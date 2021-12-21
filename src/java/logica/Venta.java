@@ -9,6 +9,8 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import logica.enumera.MedioPago;
+import logica.enumera.TipoContratacion;
 
 @Entity
 public class Venta implements Serializable {
@@ -18,7 +20,8 @@ public class Venta implements Serializable {
     private int numVenta;
     @Temporal(TemporalType.DATE)
     private Date fechaVenta;
-    private String medioPago;
+    private MedioPago medioPago;
+    private TipoContratacion tipocontratacion;
     @ManyToOne
     private PaqueteTuristico paqueteTuristico;
     @ManyToOne
@@ -27,10 +30,11 @@ public class Venta implements Serializable {
     public Venta() {
     }
 
-    public Venta(int numVenta, Date fechaVenta, String medioPago, PaqueteTuristico paqueteTuristico, Servicio servicio) {
+    public Venta(int numVenta, Date fechaVenta, MedioPago medioPago,TipoContratacion tipoCotratacion, PaqueteTuristico paqueteTuristico, Servicio servicio) {
         this.numVenta = numVenta;
         this.fechaVenta = fechaVenta;
         this.medioPago = medioPago;
+        this.tipocontratacion = tipoCotratacion;
         this.paqueteTuristico = paqueteTuristico;
         this.servicio = servicio;
     }
@@ -51,12 +55,20 @@ public class Venta implements Serializable {
         this.fechaVenta = fechaVenta;
     }
 
-    public String getMedioPago() {
+    public MedioPago getMedioPago() {
         return medioPago;
     }
 
-    public void setMedioPago(String medioPago) {
+    public void setMedioPago(MedioPago medioPago) {
         this.medioPago = medioPago;
+    }
+
+    public TipoContratacion getTipocontratacion() {
+        return tipocontratacion;
+    }
+
+    public void setTipocontratacion(TipoContratacion tipocontratacion) {
+        this.tipocontratacion = tipocontratacion;
     }
 
     public PaqueteTuristico getPaqueteTuristico() {
@@ -77,7 +89,8 @@ public class Venta implements Serializable {
 
     @Override
     public String toString() {
-        return "Venta{" + "numVenta=" + numVenta + ", fechaVenta=" + fechaVenta + ", medioPago=" + medioPago + ", paqueteTuristico=" + paqueteTuristico + ", servicio=" + servicio + '}';
+        return "Venta{" + "numVenta=" + numVenta + ", fechaVenta=" + fechaVenta + ", medioPago=" + medioPago + ", tipocontratacion=" + tipocontratacion + ", paqueteTuristico=" + paqueteTuristico + ", servicio=" + servicio + '}';
     }
+
 
 }

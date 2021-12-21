@@ -24,7 +24,7 @@
 
     <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
 
-
+        <!-- ==== OPCIONES ADMIN ==== -->
         <div id="navbar-main">
             <!-- Fixed navbar -->
             <div class="navbar navbar-default navbar-fixed-top">
@@ -33,11 +33,11 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <i class="el-icon-lines"></i>
                         </button>
-                        <a class="navbar-brand hidden-xs hidden-sm" href="#home"><h1>ViajAndo</h1></a>
+                        <a class="navbar-brand hidden-xs hidden-sm" href="index.jsp"><h1>ViajAndo</h1></a>
                     </div>
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
-                            <li><a href="#home" class="smoothScroll">Inicio</a></li>
+                            <li><a href="index.jps" class="smoothScroll">Inicio</a></li>
                             <li> <a href="paquetes.jsp" class="smoothScroll">Paquetes</a></li>
                             <li> <a href="servicios.jsp" class="smoothScroll">Servicios</a></li>					
                             <li> <a href="empleados.jsp" class="smoothScroll">Empleados</a></li>

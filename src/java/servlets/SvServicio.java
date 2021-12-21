@@ -34,15 +34,26 @@ public class SvServicio extends HttpServlet {
             throws ServletException, IOException {
         try {
             String nombre = request.getParameter("nombre");
-            String descripcion = request.getParameter("descripcion");
-            String destino = request.getParameter("destino");
-            Double costo = Double.parseDouble(request.getParameter("costo"));
-            Date fecha = simpleFormat.parse(request.getParameter("fecha"));
-            String nombreUsu = request.getParameter("nombreUsu");
-            String contrasenia = request.getParameter("contrasenia");
+            String descripcionBreve = request.getParameter("descripcionBreve");
+            String destinoServicio = request.getParameter("destinoServicio");
+            Date fechaServicio = simpleFormat.parse(request.getParameter("fechaServicio"));
+            Double costoServicio = Double.parseDouble(request.getParameter("costoServicio"));
+            String tipoServicio = request.getParameter("tipoServicio");
 
-            control.crearServicio(nombre, descripcion, destino, fecha, costo);
+            Boolean activo = Boolean.parseBoolean(request.getParameter("activo"));
+            
+            request.getSession().setAttribute("nombre", nombre);
+            request.getSession().setAttribute("descripcionBreve", descripcionBreve);
+            request.getSession().setAttribute("destinoServicio", destinoServicio);
+            request.getSession().setAttribute("fechaServicio", fechaServicio);
+            request.getSession().setAttribute("costoServicio", costoServicio);
+            request.getSession().setAttribute("tipoServicio", tipoServicio);
+            request.getSession().setAttribute("activo", activo);
+            
             response.sendRedirect("index.jsp");
+            
+            control.crearServicio(nombre, descripcionBreve, destinoServicio, fechaServicio, costoServicio, tipoServicio);
+            
         } catch (ParseException ex) {
             Logger.getLogger(SvEmpleado.class.getName()).log(Level.SEVERE, null, ex);
         }

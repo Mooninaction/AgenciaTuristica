@@ -8,14 +8,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import logica.Controladora;
 
-@WebServlet(name = "SvPaqueteTuristico", urlPatterns ={"/SvPaqueteTuristico"})
-public class SvPaqueteTuristico extends HttpServlet {
+@WebServlet(name = "SvCargo", urlPatterns = { "/SvCargo"})
+public class SvCargo extends HttpServlet {
 
     Controladora control = new Controladora();
-    
+
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
     }
 
     @Override
@@ -27,7 +26,7 @@ public class SvPaqueteTuristico extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+        processRequest(request, response);
     }
 
     @Override

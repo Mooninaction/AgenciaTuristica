@@ -9,15 +9,17 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
+import logica.Cargo;
 import logica.Venta;
 
 @Entity
 public class Empleado extends Persona implements Serializable {
-    
+
     @Id
-    @GeneratedValue(strategy=GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int idEmpleado;
-    private String cargo;
+    @OneToOne
+    private Cargo cargo;
     private double sueldo;
     @OneToOne
     public Usuario usuario;
@@ -27,7 +29,7 @@ public class Empleado extends Persona implements Serializable {
     public Empleado() {
     }
 
-    public Empleado(int idEmpleado, String cargo, double sueldo, Usuario usuario, List<Venta> listaVentas) {
+    public Empleado(int idEmpleado, Cargo cargo, double sueldo, Usuario usuario, List<Venta> listaVentas) {
         this.idEmpleado = idEmpleado;
         this.cargo = cargo;
         this.sueldo = sueldo;
@@ -35,7 +37,7 @@ public class Empleado extends Persona implements Serializable {
         this.listaVentas = listaVentas;
     }
 
-    public Empleado(int idEmpleado, String cargo, double sueldo, Usuario usuario, List<Venta> listaVentas, String nombre, String apellido, String direccion, String dni, Date fechaNacimiento, String nacionalidad, String celular, String email) {
+    public Empleado(int idEmpleado, Cargo cargo, double sueldo, Usuario usuario, List<Venta> listaVentas, String nombre, String apellido, String direccion, String dni, Date fechaNacimiento, String nacionalidad, String celular, String email) {
         super(nombre, apellido, direccion, dni, fechaNacimiento, nacionalidad, celular, email);
         this.idEmpleado = idEmpleado;
         this.cargo = cargo;
@@ -52,11 +54,11 @@ public class Empleado extends Persona implements Serializable {
         this.idEmpleado = idEmpleado;
     }
 
-    public String getCargo() {
+    public Cargo getCargo() {
         return cargo;
     }
 
-    public void setCargo(String cargo) {
+    public void setCargo(Cargo cargo) {
         this.cargo = cargo;
     }
 
@@ -83,6 +85,10 @@ public class Empleado extends Persona implements Serializable {
     public void setListaVentas(List<Venta> listaVentas) {
         this.listaVentas = listaVentas;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Empleado{" + "idEmpleado=" + idEmpleado + ", cargo=" + cargo + ", sueldo=" + sueldo + ", usuario=" + usuario + ", listaVentas=" + listaVentas + '}';
+    }
+
 }
